@@ -1,6 +1,6 @@
 import { Provider } from "react-redux";
 import "./App.css";
-import Work from "./containers/Work/Work";
+import Work from "./containers/Work";
 import { store } from "./store/store";
 
 const App = (): JSX.Element => {

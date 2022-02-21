@@ -13,6 +13,7 @@ const requestData = (): Promise<RawData> => {
         resolve(mockData);
       }, 1500);
     } catch (e) {
+      console.error(e);
       reject();
     }
   });
